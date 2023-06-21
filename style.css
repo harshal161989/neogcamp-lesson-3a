@@ -1,0 +1,19 @@
+body {
+    color: red;
+}
+
+h1 {
+    color: blue;
+}
+
+h2 {
+    color: rgb(0, 255, 157);
+}
+
+#id-header {
+    color: green;
+}
+
+.para {
+    color: yellowgreen;
+}
