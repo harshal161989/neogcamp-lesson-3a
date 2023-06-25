@@ -3,6 +3,7 @@
 :root {
     --primary-color: #10b981;
     --light-green: #84cc16;
+    --off-wihte: #e2e8f0;
 }
 
 
@@ -70,6 +71,10 @@ hr {
     color: white;
 }
 
+.navigation .link-active {
+    font-weight: bold;
+}
+
 .hero {
     padding: 2rem;
 }
@@ -87,4 +92,16 @@ hr {
 
 .hero .hero-heading .heading-inverted {
     color: var(--light-green);
+}
+
+.section {
+    padding: 2rem;
+}
+
+.section h1 {
+    text-align: center;
+}
+
+.ow {
+    background-color: var(--off-wihte);
 }
